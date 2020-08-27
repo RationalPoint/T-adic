@@ -1,0 +1,24 @@
+Sage tools for exploring sharpness of lower bounds for totally T-adic
+functions over GF(q). These are used to implement the algorithms in 
+
+[FP] Faber, Xander and Petsche, Clay. Totally T-adic functions of small height.
+     Preprint, arXiv:2003.05205 [math.NT].  (2020)
+
+AUTHOR: Xander Faber
+
+LICENSE: GPLv3
+
+The files in this distribution are
+
+  progress.py -- a simple progress indicator for loops
+  
+  Tadic.py -- various functions for exploring totally T-adic elements
+  
+  sage_launcher.py -- an asynchronous launcher for Sage scripts
+  
+  GF2_min_height_search.sage -- script for running Algorithm 2 in [FP]
+
+The Tadic module depends on maclane.py, which can be found at
+
+  https:github.com/RationalPoint/MacLane
+
